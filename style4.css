@@ -1,0 +1,297 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lb1{
+    position: absolute;
+    width: 1340px;
+    height: 671px;
+    left: 0px;
+    top: 0px;
+
+    background: url(img/10.png);
+}
+.lb2{
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 0px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+.menu {
+    position: absolute;
+    right: 100px;
+}
+
+.menu a {
+    list-style: none;
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+/* Hover */
+
+.menu a:hover {
+    color: #d22ce1;
+}
+
+.menu .point {
+    color: #d22ce1;
+}
+
+/* Btn X Span */
+.btn {
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+
+.btn span {
+    display: block;
+    margin: 6px;
+    width: 30px;
+    height: 3px;
+    background: #f1f1f1;
+    line-height: 50px;
+}
+
+.btn:hover>span {
+    background: #e1b12c;
+}
+.garis1{
+    position: absolute;
+width: 373px;
+height: 0px;
+
+background: #B2A5B0;
+mix-blend-mode: soft-light;
+}
+.garis2{
+    position: absolute;
+width: 222px;
+height: 0px;
+
+background: #523952;
+mix-blend-mode: hard-light;
+
+}
+.kata1{
+    position: absolute;
+    width: 797px;
+    height: 63px;
+    top: 270px;
+    left: 200px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+.kata2{
+    position: absolute;
+    width: 797px;
+    height: 63px;
+
+    top: 250px;
+    left: 450px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.kata4{
+    position: absolute;
+    width: 81px;
+    height: 20px;
+    left: 1037px;
+    top: 550px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
+.email{
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 1128px;
+    top: 563px;
+
+    background: url(img/19.png);
+}
+.facebook{
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 1172px;
+    top: 563px;
+
+    background: url(img/22.png);
+}
+.Instagram{
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 1215px;
+    top: 563px;
+
+    background: url(img/23.png);
+}
+.telefon{
+    position: absolute;
+    width: 17px;
+    height: 20px;
+    left: 1037px;
+    top: 600px;
+    
+    background: url(img/24.png);  
+}
+.kata5{
+    position: absolute;
+    width: 144px;
+    height: 20px;
+    left: 1063px;
+    top: 580px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+
+}
+.kata6{
+
+position: absolute;
+top: 710px;
+left: 230px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.015em;
+
+color: #431243;
+
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.kata7{
+    position: absolute;
+    width: 970px;
+    height: 280px;
+    top: 901px;
+    left: 198px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    
+    color: #000000;
+}
+.kata8{
+    position: absolute;
+
+top: 1527px;
+    left: 70px;
+    right: 70px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em;
+
+color: #000000;
+
+}
+.bg1{
+    
+    top: 1916px;
+    position: absolute;
+width: 1340px;
+height: 84px;
+
+background: #9C7A97;
+border-radius: 50px 50px 0px 0px;
+}
+.line{
+    position: absolute;
+width: 329px;
+height: 0px;
+left: 70px;
+top: 1343.24px;
+
+border: 20px solid #9C7A97;
+transform: rotate(-179.78deg);
+
+}
+.line1{
+    position: absolute;
+width: 587.01px;
+height: 0px;
+left: 609px;
+top: 1446px;
+
+border: 20px solid #9C7A97;
+transform: rotate(0.29deg);
+}
+
+.copy{
+    position: absolute;
+    width: 554px;
+    height: 23px;
+    top: 1930px;
+    left: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
